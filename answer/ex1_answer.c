@@ -8,7 +8,7 @@ int main(void){
     snack=180;
     tax=1.08;
 
-    ans=1000-(int)(tax*(drink+snack*2));
+    ans=1000-(int)(tax*(drink+snack*2));//(int)のいちは全体につけても大丈夫です。
     printf("%d\n",ans);
     return 0;
 }
