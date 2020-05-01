@@ -9,6 +9,6 @@ int main(void){
     tax=1.08;
 
     ans=1000-(int)(tax*(drink+snack*2));//(int)のいちは全体につけても大丈夫です。
-    printf("%d\n",ans);
+    printf("%d\n",ans);//出力
     return 0;
 }
